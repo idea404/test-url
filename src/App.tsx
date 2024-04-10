@@ -30,6 +30,7 @@ function App() {
       <h1>JSON-RPC Endpoint Tester</h1>
       <button onClick={() => handleButtonClick('https://staging.omni.network')}>Test Staging Endpoint</button>
       <button onClick={() => handleButtonClick('https://testnet.omni.network')}>Test Testnet Endpoint</button>
+      <button onClick={() => handleButtonClick('https://ethereum-holesky-rpc.publicnode.com')}>Test Ethereum-Holesky Endpoint</button>
     </div>
   );
 }
