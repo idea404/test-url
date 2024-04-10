@@ -2,8 +2,8 @@ import React from 'react';
 
 function App() {
   const handleButtonClick = async (endpoint: string) => {
-    const method = '<METHOD_NAME>'; // Replace <METHOD_NAME> with your actual method name
-    const params = {}; // Replace <PARAMS> with your actual parameters
+    const method = 'eth_blockNumber';
+    const params: never[] = [];
 
     try {
       const response = await fetch(endpoint, {
